@@ -78,6 +78,10 @@ body {
 
 .automate {
   padding: 10px 20px;
+  background-image: url("/img/Vector 2.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-color: rgba(244, 242, 255, 0.6);
   color: #2d1d60;
 }
 
@@ -93,6 +97,13 @@ body {
 
 .automate p {
   padding: 0 10px;
+}
+
+.ability {
+  background-image: url("/img/Vector 2.svg");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: rgba(244, 242, 255, 0.6);
 }
 
 .ability h4 {
@@ -152,6 +163,11 @@ body {
 
 .ability .flex {
   display: none;
+}
+
+.track {
+  background-image: url("/img/Vector 2.svg");
+  background-color: rgba(244, 242, 255, 0.6);
 }
 
 .track h4 {
@@ -521,6 +537,7 @@ footer .end {
   }
   .ability p {
     width: 545px;
+    padding: 0px;
     font-size: 20px;
     text-align: left;
   }

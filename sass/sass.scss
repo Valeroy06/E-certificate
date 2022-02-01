@@ -72,6 +72,10 @@ body {
     width: 270px;
     padding: 20px 0;
   }
+  background-image: url('/img/Vector\ 2.svg');
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-color: rgba(244, 242, 255, 0.6);
 
   color: #2d1d60;
 
@@ -94,6 +98,10 @@ body {
     padding: 20px 0;
     color: #2d1d60;
   }
+  background-image: url('/img/Vector\ 2.svg');
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: rgba(244, 242, 255, 0.6);
   p {
     padding: 0 30px;
     color: #2d1d6080;
@@ -129,6 +137,8 @@ body {
   }
 }
 .track {
+  background-image: url('/img/Vector\ 2.svg');
+  background-color: rgba(244, 242, 255, 0.6);
   h4 {
     font-size: 20px;
     padding: 20px;
@@ -479,6 +489,7 @@ footer {
     }
     p {
       width: 545px;
+      padding: 0px;
       font-size: 20px;
       text-align: left;
     }
